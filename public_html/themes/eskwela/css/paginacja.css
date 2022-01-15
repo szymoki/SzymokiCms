@@ -1,0 +1,23 @@
+.paginacja-wrapper {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.paginacja {
+    display: inline-block;
+    height: auto;
+    margin-top: auto;
+    padding: 0 25px;
+    border-radius: 35px;
+    background-color: #eee;
+}
+
+.page-number {
+    display: block;
+    padding: 0 15px;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    line-height: 40px;
+}

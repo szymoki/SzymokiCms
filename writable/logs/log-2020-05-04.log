@@ -1,0 +1,285 @@
+CRITICAL - 2020-05-04 01:21:37 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('63')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 03:42:31 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('69')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 05:23:16 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('66')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 08:16:17 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('71')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 09:48:29 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('5')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 10:21:09 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('1')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 10:21:16 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('1')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 11:24:56 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('70')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 11:25:44 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('64')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 11:50:38 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('44')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 13:53:33 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('47')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 15:13:54 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('68')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 16:09:26 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page('40')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 16:41:59 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 16:42:03 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 16:42:10 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages_p->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 16:42:22 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 16:42:49 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages_p->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 16:43:01 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 16:55:52 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Users->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 17:23:06 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 17:35:18 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 17:36:54 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 17:37:03 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 17:37:18 --> Class 'App\Models\Pages_model' not found
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Pages->__construct()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-04 17:43:31 --> Call to undefined function validation_errors()
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(91): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->addu()
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 17:48:09 --> Call to undefined function validation_errors()
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(91): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->addu()
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 17:49:51 --> Call to undefined function validation_errors()
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(93): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->addu()
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 17:49:52 --> Call to undefined function validation_errors()
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(93): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->addu()
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 17:50:05 --> Invalid argument supplied for foreach()
+#0 /home/parapano/domains/szymonyo.tk/app/Views/panel/users/users_add.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/parapano/...', 35, Array)
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include('/home/parapano/...')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#3 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(93): view('panel/users/use...', Array)
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->addu()
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#6 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-04 17:50:07 --> Invalid argument supplied for foreach()
+#0 /home/parapano/domains/szymonyo.tk/app/Views/panel/users/users_add.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/parapano/...', 35, Array)
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include('/home/parapano/...')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#3 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(93): view('panel/users/use...', Array)
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->addu()
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#6 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-04 17:53:32 --> Call to a member function listErrors() on null
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(69): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->edit('1')
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 17:53:48 --> Call to a member function listErrors() on null
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(71): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->edit('1')
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 17:53:49 --> Call to a member function listErrors() on null
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(71): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->edit('1')
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 17:53:49 --> Call to a member function listErrors() on null
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(71): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->edit('1')
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 17:53:56 --> Call to a member function listErrors() on null
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(71): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->edit('1')
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 17:53:56 --> Call to a member function listErrors() on null
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/users/use...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Users.php(71): view('panel/users/use...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->edit('1')
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 19:23:18 --> syntax error, unexpected 'App' (T_STRING)
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('galeria')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('galeria')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-04 21:34:26 --> Call to undefined function validation_errors()
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('/panel/pages_p/...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Pages_p.php(95): view('/panel/pages_p/...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages_p->addu()
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages_p))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-04 21:34:51 --> Call to undefined function validation_errors()
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('/panel/pages_p/...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Pages_p.php(95): view('/panel/pages_p/...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages_p->addu()
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages_p))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

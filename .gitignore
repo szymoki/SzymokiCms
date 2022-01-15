@@ -1,0 +1,5 @@
+vendor
+.env
+.env_local
+sftp-config.json
+composer.lock

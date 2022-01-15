@@ -1,0 +1,52 @@
+CRITICAL - 2020-04-21 19:13:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 /home/parapano/domains/szymonyo.tk/app/Views/pages/pages_p_index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home/parapano/...', 55, Array)
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include('/home/parapano/...')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('pages/pages_p_i...', Array, true)
+#3 /home/parapano/domains/szymonyo.tk/app/Controllers/Page.php(115): view('pages/pages_p_i...', Array)
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page_p('21')
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#6 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-21 19:14:36 --> Call to a member function news() on null
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('pages/pages_p_i...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Page.php(116): view('pages/pages_p_i...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page_p('21')
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-21 19:14:36 --> Call to a member function news() on null
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('pages/pages_p_i...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Page.php(116): view('pages/pages_p_i...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page_p('21')
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-21 19:16:15 --> Nieznana kolumna 'added_date' w  order clause
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/parapano/domains/szymonyo.tk/app/Controllers/Page.php(114): CodeIgniter\Model->findAll()
+#6 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page_p('21')
+#7 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-21 19:16:23 --> Nieznana kolumna 'add_date' w  order clause
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/parapano/domains/szymonyo.tk/app/Controllers/Page.php(114): CodeIgniter\Model->findAll()
+#6 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Page->page_p('21')
+#7 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

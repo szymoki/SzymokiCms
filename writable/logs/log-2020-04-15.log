@@ -1,0 +1,528 @@
+CRITICAL - 2020-04-15 04:19:42 --> Kolumna 'create_by' nie może być null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ne...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ne...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ne...')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ne...', Array, false)
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/project-root/app/Controllers/Panel/News.php(112): CodeIgniter\Model->insert(Array)
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\News->addu()
+#7 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\News))
+#8 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-15 04:20:02 --> Kolumna 'edited_by' nie może być null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ne...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ne...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ne...')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ne...', Array, false)
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/project-root/app/Controllers/Panel/News.php(112): CodeIgniter\Model->insert(Array)
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\News->addu()
+#7 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\News))
+#8 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-15 04:21:07 --> Call to undefined method CodeIgniter\Validation\Validation::seRule()
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\News->editu()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\News))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 04:21:14 --> xss_clean is not a valid rule.
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(287): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('title', 'nazwa', '345534342243', Array, Array)
+#2 /var/www/html/project-root/app/Controllers/Panel/News.php(129): CodeIgniter\Validation\Validation->run(Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\News->editu()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\News))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 04:21:15 --> xss_clean is not a valid rule.
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(287): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('title', 'nazwa', '345534342243', Array, Array)
+#2 /var/www/html/project-root/app/Controllers/Panel/News.php(129): CodeIgniter\Validation\Validation->run(Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\News->editu()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\News))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 04:21:22 --> Call to a member function run() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\News->editu()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\News))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 04:21:30 --> 
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/project-root/app/Controllers/Panel/News.php(150): redirect('panel/news')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\News->editu()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\News))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 04:31:25 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/html/project-root/app/Controllers/Panel/Pliki.php on line 18
+#0 /var/www/html/project-root/app/Controllers/Panel/Pliki.php(18): view('panel/pliki/pli...', NULL)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pliki->index()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pliki))
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 04:31:26 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/html/project-root/app/Controllers/Panel/Pliki.php on line 18
+#0 /var/www/html/project-root/app/Controllers/Panel/Pliki.php(18): view('panel/pliki/pli...', NULL)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pliki->index()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pliki))
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 04:31:44 --> Call to undefined function acl()
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/panel_the...', Array, true)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pliki.php(20): view('panel/panel_the...', Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pliki->index()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pliki))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 04:31:44 --> Call to undefined function acl()
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/panel_the...', Array, true)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pliki.php(20): view('panel/panel_the...', Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pliki->index()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pliki))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 04:36:06 --> Class 'CI_Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-15 04:54:45 --> Call to a member function model() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Menu->edit('1')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Menu))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 04:55:15 --> Invalid argument supplied for foreach()
+#0 /var/www/html/project-root/app/Views/panel/menu/menu_add.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/p...', 26, Array)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include('/var/www/html/p...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/menu/menu...', Array, true)
+#3 /var/www/html/project-root/app/Controllers/Panel/Menu.php(36): view('panel/menu/menu...', Array)
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Menu->add()
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Menu))
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 04:56:15 --> xss_clean is not a valid rule.
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(287): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('name', 'nazwa', 'Test', Array, Array)
+#2 /var/www/html/project-root/app/Controllers/Panel/Menu.php(63): CodeIgniter\Validation\Validation->run(Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Menu->addu()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Menu))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 04:57:28 --> Connection timed out
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/project-root/app/Controllers/Panel/Menu.php(45): CodeIgniter\Model->findAll(39)
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Menu->edit('39')
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Menu))
+#7 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-15 05:02:44 --> Invalid argument supplied for foreach()
+#0 /var/www/html/project-root/app/Views/panel/menu/menu_edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/p...', 26, Array)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include('/var/www/html/p...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/menu/menu...', Array, true)
+#3 /var/www/html/project-root/app/Controllers/Panel/Menu.php(47): view('panel/menu/menu...', Array)
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Menu->edit('39')
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Menu))
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 05:04:51 --> Call to a member function model() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Menu->del('39')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Menu))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 05:05:02 --> 
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/project-root/app/Controllers/Panel/Menu.php(121): redirect('panel/menu')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Menu->del('39')
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Menu))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 05:14:52 --> Call to a member function get_all() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->index()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 05:15:01 --> Call to a member function view() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->index()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 05:15:47 --> Argument 3 passed to view() must be of the type array, boolean given, called in /var/www/html/project-root/app/Controllers/Panel/Szablon.php on line 31
+#0 /var/www/html/project-root/app/Controllers/Panel/Szablon.php(31): view('panel/szablon/s...', Array, true)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->index()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 05:16:08 --> Call to a member function zmienna() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/szablon/s...', Array, true)
+#2 /var/www/html/project-root/app/Controllers/Panel/Szablon.php(31): view('panel/szablon/s...', Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->index()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 05:17:23 --> syntax error, unexpected '")==1 ? ' selected' :"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/szablon/s...', Array, true)
+#1 /var/www/html/project-root/app/Controllers/Panel/Szablon.php(31): view('panel/szablon/s...', Array)
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->index()
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-15 05:18:41 --> Creating default object from empty value
+#0 /var/www/html/project-root/app/Models/Zmienne_model.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/var/www/html/p...', 34, Array)
+#1 /var/www/html/project-root/app/Controllers/Panel/Szablon.php(24): App\Models\Zmienne_model->getAll()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->index()
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-15 05:19:39 --> Creating default object from empty value
+#0 /var/www/html/project-root/app/Models/Zmienne_model.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/var/www/html/p...', 34, Array)
+#1 /var/www/html/project-root/app/Controllers/Panel/Szablon.php(24): App\Models\Zmienne_model->getAll()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->index()
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-15 05:21:23 --> Cannot use object of type stdClass as array
+#0 /var/www/html/project-root/app/Controllers/Panel/Szablon.php(27): App\Models\Zmienne_model->zmienna('pieciokat1')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->index()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 05:21:29 --> Cannot use object of type stdClass as array
+#0 /var/www/html/project-root/app/Controllers/Panel/Szablon.php(27): App\Models\Zmienne_model->zmienna('pieciokat1')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->index()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 05:21:46 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/p...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Zmie...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Zmie...')
+#3 /var/www/html/project-root/app/Controllers/Panel/Szablon.php(14): spl_autoload_call('App\\Models\\Zmie...')
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(882): App\Controllers\Panel\Szablon->__construct()
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 05:27:43 --> Allowed fields must be specified for model: App\Models\Zmienne_model
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Model.php(1218): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Zmie...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Model.php(832): CodeIgniter\Model->doProtectFields(Array)
+#2 /var/www/html/project-root/app/Models/Zmienne_model.php(31): CodeIgniter\Model->update(Array, Array)
+#3 /var/www/html/project-root/app/Controllers/Panel/Szablon.php(68): App\Models\Zmienne_model->zmienna_set('pieciokat2', '{"title":"Gabin...')
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Szablon->save_p()
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Szablon))
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 05:44:25 --> syntax error, unexpected '$encryption' (T_VARIABLE)
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/p...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\L...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\L...')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(546): spl_autoload_call('App\\Libraries\\L...')
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(147): CodeIgniter\Validation\Validation->loadRuleSets()
+#5 /var/www/html/project-root/app/Controllers/Panel/Panel.php(83): CodeIgniter\Validation\Validation->run(Array)
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->pass_change()
+#7 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#8 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-15 05:45:15 --> callback_pass_check is not a valid rule.
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(287): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('callback_pass_c...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('old', 'Stare has\xC5\x82o', 'fdsfd', Array, Array)
+#2 /var/www/html/project-root/app/Controllers/Panel/Panel.php(83): CodeIgniter\Validation\Validation->run(Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->pass_change()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 05:45:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /var/www/html/project-root/app/Models/MY_Model.php(143): App\Models\MY_Model->_set_where(Array)
+#1 /var/www/html/project-root/app/Models/MY_Model.php(127): App\Models\MY_Model->get_by('id', '1')
+#2 /var/www/html/project-root/app/Libraries/LoginRules.php(68): App\Models\MY_Model->get('1')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(279): App\Libraries\LoginRules->pass_check('fdsfd', NULL)
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('old', 'Stare has\xC5\x82o', 'fdsfd', Array, Array)
+#5 /var/www/html/project-root/app/Controllers/Panel/Panel.php(83): CodeIgniter\Validation\Validation->run(Array)
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->pass_change()
+#7 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#8 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-15 05:46:11 --> xss_clean is not a valid rule.
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(287): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('new', 'Nowe has\xC5\x82o', 'fdssdf', Array, Array)
+#2 /var/www/html/project-root/app/Controllers/Panel/Panel.php(83): CodeIgniter\Validation\Validation->run(Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->pass_change()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 05:46:21 --> Call to a member function view() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->pass_change()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 05:47:43 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->pass_change()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 05:48:22 --> Call to a member function item() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->pass_change()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 05:49:18 --> Call to a member function post() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->pass_change()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 05:58:54 --> Too few arguments to function CodeIgniter\Validation\Validation::showError(), 0 passed in /var/www/html/project-root/app/Views/panel/panel_login.php on line 34 and at least 1 expected
+#0 /var/www/html/project-root/app/Views/panel/panel_login.php(34): CodeIgniter\Validation\Validation->showError()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include('/var/www/html/p...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/panel_log...', Array, true)
+#3 /var/www/html/project-root/app/Controllers/Panel/Panel.php(56): view('panel/panel_log...', Array)
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->verify()
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 09:51:34 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/p...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 09:56:00 --> Call to a member function model() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Slider->index()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Slider))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 09:56:12 --> Argument 3 passed to view() must be of the type array, boolean given, called in /var/www/html/project-root/app/Controllers/Panel/Slider.php on line 27
+#0 /var/www/html/project-root/app/Controllers/Panel/Slider.php(27): view('panel/slider/sl...', Array, true)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Slider->index()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Slider))
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 10:41:06 --> Call to undefined method CodeIgniter\Validation\Validation::Rule()
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Slider->editu()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Slider))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 10:42:24 --> Kolumna 'active' nie może być null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `sl...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sl...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sl...')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sl...', Array, false)
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/project-root/app/Controllers/Panel/Slider.php(74): CodeIgniter\Model->insert(Array)
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Slider->addu()
+#7 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Slider))
+#8 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-15 10:51:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 /var/www/html/project-root/app/Controllers/Panel/Gallery.php(25): App\Models\MY_Model->get_all()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->index()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 10:52:14 --> Argument 3 passed to view() must be of the type array, boolean given, called in /var/www/html/project-root/app/Controllers/Panel/Gallery.php on line 26
+#0 /var/www/html/project-root/app/Controllers/Panel/Gallery.php(26): view('panel/gallery/g...', Array, true)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->index()
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 10:53:26 --> scandir(/home/parapano/domains/szymonyo.tk/public_html/loken/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(/home/p...', '/var/www/html/p...', 50, Array)
+#1 /var/www/html/project-root/app/Controllers/Panel/Gallery.php(50): scandir('/home/parapano/...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->edit('7')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-15 10:53:29 --> scandir(/home/parapano/domains/szymonyo.tk/public_html/loken/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(/home/p...', '/var/www/html/p...', 50, Array)
+#1 /var/www/html/project-root/app/Controllers/Panel/Gallery.php(50): scandir('/home/parapano/...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->edit('8')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-15 10:54:30 --> scandir(/home/parapano/domains/szymonyo.tk/public_html/loken/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(/home/p...', '/var/www/html/p...', 50, Array)
+#1 /var/www/html/project-root/app/Controllers/Panel/Gallery.php(50): scandir('/home/parapano/...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->edit('7')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-15 10:54:34 --> scandir(/home/parapano/domains/szymonyo.tk/public_html/loken/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(/home/p...', '/var/www/html/p...', 33, Array)
+#1 /var/www/html/project-root/app/Controllers/Panel/Gallery.php(33): scandir('/home/parapano/...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->add()
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-15 12:12:08 --> Call to a member function get_user_name() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/pages/pag...', Array, true)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pages.php(32): view('panel/pages/pag...', Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages->index()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 12:39:40 --> Call to a member function orderBy() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages->edit('1')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 12:40:14 --> Invalid argument supplied for foreach()
+#0 /var/www/html/project-root/app/Views/panel/pages/pages_edit.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/p...', 57, Array)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include('/var/www/html/p...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('panel/pages/pag...', Array, true)
+#3 /var/www/html/project-root/app/Controllers/Panel/Pages.php(76): view('panel/pages/pag...', Array)
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages->edit('1')
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages))
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 13:02:05 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('panel/pages/edi...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('panel/pages/edi...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 13:06:51 -->  is not a valid rule.
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(287): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('text', 'Url', '<p style="text-...', Array, Array)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pages.php(135): CodeIgniter\Validation\Validation->run(Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages->editu()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 13:07:07 --> 
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pages.php(186): redirect('panel/pages')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages->editu()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 13:10:17 --> Call to a member function run() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages->addu_menu()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages))
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 13:11:05 --> 
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pages.php(228): redirect('panel/pages/edi...')
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages->addu_menu()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 14:34:50 --> Call to a member function acl() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('/panel/pages_p/...', Array, true)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pages_p.php(34): view('/panel/pages_p/...', Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages_p->index()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages_p))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 14:38:15 --> Invalid file: /panel/pages/pages_p_add.php
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/panel/pages/pa...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('/panel/pages/pa...', Array, true)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pages_p.php(43): view('/panel/pages/pa...', Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages_p->add()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages_p))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 14:39:40 --> Call to a member function acl() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('/panel/pages_p/...', Array, true)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pages_p.php(43): view('/panel/pages_p/...', Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages_p->add()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages_p))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 15:23:25 --> Invalid argument supplied for foreach()
+#0 /var/www/html/project-root/app/Views/panel/pages_p/pages_p_edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/p...', 26, Array)
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include('/var/www/html/p...')
+#2 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('/panel/pages_p/...', Array, true)
+#3 /var/www/html/project-root/app/Controllers/Panel/Pages_p.php(78): view('/panel/pages_p/...', Array)
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages_p->edit('10')
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages_p))
+#6 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 15:23:58 --> Call to a member function acl() on null
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('/panel/pages_p/...', Array, true)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pages_p.php(78): view('/panel/pages_p/...', Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages_p->edit('10')
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages_p))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-15 15:27:09 --> Allowed fields must be specified for model: App\Models\Pages_p_model
+#0 /var/www/html/project-root/vendor/codeigniter4/framework/system/Model.php(1218): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Page...')
+#1 /var/www/html/project-root/vendor/codeigniter4/framework/system/Model.php(832): CodeIgniter\Model->doProtectFields(Array)
+#2 /var/www/html/project-root/app/Controllers/Panel/Pages_p.php(186): CodeIgniter\Model->update(Array, Array)
+#3 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages_p->editu()
+#4 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages_p))
+#5 /var/www/html/project-root/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/project-root/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

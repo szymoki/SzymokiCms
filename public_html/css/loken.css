@@ -1,0 +1,109 @@
+.punkty {
+    font-weight: bold;
+    color: red;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.fileContainer [type=file] {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0
+}
+
+.ui-grid-a {
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    height: 500px;
+}
+
+.tabela {
+    width: 100%;
+}
+
+.overlay_div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #dddddd;
+    z-index: 550000;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+    margin: 10px 10px 10px 20px;
+}
+
+.imgmenu {
+    width: 64px;
+    height: 64px;
+}
+
+.img_sala {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 5px
+}
+
+.loken_napis {
+    font-size: 40px;
+    text-align: center;
+}
+
+.ui-block-a, .ui-block-b {
+    padding: 0;
+    margin: 0;
+    height: 25%;
+}
+
+.ui-block-a a, .ui-block-b a {
+    width: 50%;
+}
+
+.ui-bar-a, ui-bar {
+    margin: 0 auto;
+    padding: 0;
+    height: 90%;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+
+    /* Border set-up */
+    border: 2px solid black;
+    border-radius: 5px;
+    display: table;
+}
+
+.menu-elem {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu-elem a {
+    text-decoration: none;
+}
+
+.menu-elem .menu-text {
+    margin-top: 5px;
+    font-size: 0.9em;
+    text-shadow: 1px 2px #FFF;
+    color: #333;
+}
+
+.numerek {
+    font-size: 54px;
+    font-weight: bold;
+}

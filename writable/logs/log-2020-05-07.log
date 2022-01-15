@@ -1,0 +1,45 @@
+CRITICAL - 2020-05-07 17:40:42 --> Call to undefined function validation_errors()
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/View/View.php(236): include()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(1071): CodeIgniter\View\View->render('/panel/pages_p/...', Array, true)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Pages_p.php(96): view('/panel/pages_p/...', Array)
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Pages_p->addu()
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Pages_p))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-07 18:30:22 --> Unsupported image type: image/webp
+#0 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Image.php(94): CKSource\CKFinder\Image->__construct('RIFFh\xD2\x00\x00WEBPVP8...', false)
+#1 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/FileUpload.php(111): CKSource\CKFinder\Image::create('RIFFh\xD2\x00\x00WEBPVP8...')
+#2 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(135): CKSource\CKFinder\Command\FileUpload->execute(Object(Symfony\Component\HttpFoundation\Request), Object(CKSource\CKFinder\Filesystem\Folder\WorkingFolder), Object(Symfony\Component\EventDispatcher\EventDispatcher), Object(CKSource\CKFinder\Config), Object(CKSource\CKFinder\Cache\CacheManager), Object(CKSource\CKFinder\Thumbnail\ThumbnailRepository))
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/connector.php(20): CKSource\CKFinder\CKFinder->run()
+#7 {main}
+CRITICAL - 2020-05-07 18:30:40 --> Unsupported image type: image/webp
+#0 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Image.php(94): CKSource\CKFinder\Image->__construct('RIFFh\xD2\x00\x00WEBPVP8...', false)
+#1 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/FileUpload.php(111): CKSource\CKFinder\Image::create('RIFFh\xD2\x00\x00WEBPVP8...')
+#2 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(135): CKSource\CKFinder\Command\FileUpload->execute(Object(Symfony\Component\HttpFoundation\Request), Object(CKSource\CKFinder\Filesystem\Folder\WorkingFolder), Object(Symfony\Component\EventDispatcher\EventDispatcher), Object(CKSource\CKFinder\Config), Object(CKSource\CKFinder\Cache\CacheManager), Object(CKSource\CKFinder\Thumbnail\ThumbnailRepository))
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/connector.php(20): CKSource\CKFinder\CKFinder->run()
+#7 {main}
+CRITICAL - 2020-05-07 18:30:48 --> Unsupported image type: image/webp
+#0 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Image.php(94): CKSource\CKFinder\Image->__construct('RIFFh\xD2\x00\x00WEBPVP8...', false)
+#1 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/FileUpload.php(111): CKSource\CKFinder\Image::create('RIFFh\xD2\x00\x00WEBPVP8...')
+#2 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(135): CKSource\CKFinder\Command\FileUpload->execute(Object(Symfony\Component\HttpFoundation\Request), Object(CKSource\CKFinder\Filesystem\Folder\WorkingFolder), Object(Symfony\Component\EventDispatcher\EventDispatcher), Object(CKSource\CKFinder\Config), Object(CKSource\CKFinder\Cache\CacheManager), Object(CKSource\CKFinder\Thumbnail\ThumbnailRepository))
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/connector.php(20): CKSource\CKFinder\CKFinder->run()
+#7 {main}
+CRITICAL - 2020-05-07 18:32:09 --> Unsupported image type: image/webp
+#0 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Image.php(94): CKSource\CKFinder\Image->__construct('RIFFh\xD2\x00\x00WEBPVP8...', false)
+#1 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/FileUpload.php(111): CKSource\CKFinder\Image::create('RIFFh\xD2\x00\x00WEBPVP8...')
+#2 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(135): CKSource\CKFinder\Command\FileUpload->execute(Object(Symfony\Component\HttpFoundation\Request), Object(CKSource\CKFinder\Filesystem\Folder\WorkingFolder), Object(Symfony\Component\EventDispatcher\EventDispatcher), Object(CKSource\CKFinder\Config), Object(CKSource\CKFinder\Cache\CacheManager), Object(CKSource\CKFinder\Thumbnail\ThumbnailRepository))
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/ckfinder/core/connector/php/connector.php(20): CKSource\CKFinder\CKFinder->run()
+#7 {main}

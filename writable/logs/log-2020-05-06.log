@@ -1,0 +1,92 @@
+CRITICAL - 2020-05-06 09:58:21 --> syntax error, unexpected 'App' (T_STRING)
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('galeria')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('galeria')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-06 15:56:29 --> log() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'log() expects p...', '/home/parapano/...', 64, Array)
+#1 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Panel.php(64): log('Zalogowano si\xC4\x99', 0)
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->verify()
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-06 15:57:33 --> Using $this when not in object context
+#0 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Panel.php(64): log_cms('Zalogowano si\xC4\x99')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->verify()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-06 16:09:26 --> Call to undefined function App\Controllers\Panel\log_cms()
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\News->addu()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\News))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-06 16:39:01 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('panel/gallery')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('panel/gallery')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-06 16:39:32 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', '/home/parapano/...', 90, Array)
+#1 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Gallery.php(90): mkdir('/home/parapano/...')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->addu()
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-06 16:40:23 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', '/home/parapano/...', 89, Array)
+#1 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Gallery.php(89): mkdir('/home/parapano/...')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->addu()
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-06 16:40:49 --> Kolumna 'added_by' nie może być null
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ga...')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Gallery.php(103): CodeIgniter\Model->insert(Array)
+#6 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->addu()
+#7 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#8 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-06 16:41:14 --> 
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Gallery.php(148): redirect('panel/gallery')
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Gallery->del('9')
+#4 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Gallery))
+#5 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-06 16:45:16 --> Call to undefined function App\Controllers\Panel\log_cms()
+#0 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Users->editu()
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Users))
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-06 17:09:51 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, null given, called in /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Panel.php on line 36
+#0 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Panel.php(36): CodeIgniter\Model->findAll(NULL)
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->admin()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-06 17:09:52 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, null given, called in /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Panel.php on line 36
+#0 /home/parapano/domains/szymonyo.tk/app/Controllers/Panel/Panel.php(36): CodeIgniter\Model->findAll(NULL)
+#1 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Panel\Panel->admin()
+#2 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Panel))
+#3 /home/parapano/domains/szymonyo.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/parapano/domains/szymonyo.tk/public_html/loken/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

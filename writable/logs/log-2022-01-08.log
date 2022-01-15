@@ -1,0 +1,661 @@
+CRITICAL - 2022-01-08 11:47:22 --> date_default_timezone_set(): Timezone ID 'Poland/Warsaw' is invalid
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(184): date_default_timezone_set()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(36): require('/home/szymon/Ne...')
+#4 {main}
+CRITICAL - 2022-01-08 11:48:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Models/Zmienne_model.php(23): CodeIgniter\BaseModel->find()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(25): App\Models\Zmienne_model->zmienna()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-08 11:52:46 --> Table 'parapano_studiacms.zmienne' doesn't exist
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Models/Zmienne_model.php(23): CodeIgniter\BaseModel->find()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(25): App\Models\Zmienne_model->zmienna()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-08 11:53:35 --> Undefined variable: item
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_slider.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(48): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 11:53:50 --> Undefined variable: config
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Panel.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Panel\Panel->__construct()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 12:01:40 --> Undefined variable: encryption
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Libraries/LoginRules.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Validation/Validation.php(291): App\Libraries\LoginRules->check_database()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Panel.php(64): CodeIgniter\Validation\Validation->run()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Panel->verify()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-08 12:02:02 --> Declaration of App\Filters\MyFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 12:02:21 --> Declaration of App\Filters\MyFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 12:02:30 --> Undefined variable: config
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Filters/MyFilter.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MyFilter->before()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 12:02:57 --> Undefined variable: config
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Filters/MyFilter.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MyFilter->before()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 12:02:57 --> Undefined variable: config
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Filters/MyFilter.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MyFilter->before()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 12:02:58 --> Undefined variable: config
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Filters/MyFilter.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\MyFilter->before()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 12:03:05 --> Undefined variable: key
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/panel/news/news_index.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/News.php(49): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\News->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 12:05:33 --> Undefined property: stdClass::$url
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_main.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(55): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 12:06:23 --> Undefined variable: fb
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_theme.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(56): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 12:06:51 --> Undefined property: stdClass::$text_startup
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/panel/szablon/szablon_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Szablon.php(43): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Szablon->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 12:09:37 --> Undefined variable: fb
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_theme.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(56): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 12:09:45 --> Undefined variable: fb
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_theme.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(56): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 12:09:46 --> Undefined variable: fb
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_theme.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(56): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 12:11:32 --> Undefined variable: fb
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_theme.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(56): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 12:11:33 --> Undefined variable: fb
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_theme.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(56): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 14:42:36 --> Undefined index:  licznik1
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_main.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(55): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 14:43:25 --> Unknown column 'pozycja' in 'order clause'
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Gallery.php(28): CodeIgniter\BaseModel->findAll()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Gallery->index()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-08 14:54:54 --> Undefined index: news
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 14:55:26 --> Undefined variable: title
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_theme.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(49): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 14:56:06 --> Undefined variable: show_pages_p_down
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Views/eskwela/page_theme.php(137): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/szymon/Ne...')
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(49): view()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 14:58:33 --> Undefined property: App\Controllers\Home::$news_model
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->error()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(851): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 14:59:14 --> Trying to get property 'title' of non-object
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 14:59:39 --> Trying to get property 'title' of non-object
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 14:59:40 --> Trying to get property 'title' of non-object
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 14:59:40 --> Trying to get property 'title' of non-object
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 14:59:49 --> Trying to get property 'title' of non-object
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 14:59:50 --> Trying to get property 'title' of non-object
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 15:00:01 --> Trying to get property 'title' of non-object
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 15:00:02 --> Trying to get property 'title' of non-object
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 15:00:26 --> Trying to get property 'title' of non-object
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/News.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\News->news()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 15:00:31 --> Undefined property: App\Controllers\Home::$news_model
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->error()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(851): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 15:00:52 --> Undefined property: App\Controllers\Home::$news_model
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->error()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(851): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 15:00:53 --> Undefined property: App\Controllers\Home::$news_model
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Home.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->error()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(851): CodeIgniter\CodeIgniter->runController()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 15:01:52 --> Unknown column 'pozycja' in 'order clause'
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Gallery.php(28): CodeIgniter\BaseModel->findAll()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Gallery->index()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-08 15:02:42 --> scandir(/home/loken/domains/loken.pl/public_html/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Gallery.php(36): scandir()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Gallery->add()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 15:02:57 --> scandir(/home/loken/domains/loken.pl/public_html/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Gallery.php(36): scandir()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Gallery->add()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 15:03:13 --> scandir(/home/loken/domains/loken.pl/public_html/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Gallery.php(36): scandir()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Gallery->add()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 15:03:54 --> scandir(public_html/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Gallery.php(36): scandir()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Gallery->add()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 15:03:55 --> scandir(public_html/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Gallery.php(36): scandir()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Gallery->add()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 15:04:15 --> scandir(public_html/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Gallery.php(36): scandir()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Gallery->add()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 15:04:24 --> scandir(/home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/public_html/upload_media/gallery): failed to open dir: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Controllers/Panel/Gallery.php(36): scandir()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Panel\Gallery->add()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 15:12:17 --> Call to a member function getPerformanceStats() on null
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/CI.php(12): require_once('/home/szymon/Ne...')
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/config.php(30): require_once('/home/szymon/Ne...')
+#7 [internal function]: CKSource\CKFinder\Config->{closure}()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Authentication/CallableAuthentication.php(45): call_user_func()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(218): CKSource\CKFinder\Authentication\CallableAuthentication->authenticate()
+#10 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(539): CKSource\CKFinder\CKFinder->checkAuth()
+#11 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(600): CKSource\CKFinder\CKFinder->boot()
+#12 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#13 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#14 {main}
+CRITICAL - 2022-01-08 15:12:17 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Config/Events.php:27) in /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:12:48 --> Call to a member function getPerformanceStats() on null
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/CI.php(12): require_once('/home/szymon/Ne...')
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/config.php(30): require_once('/home/szymon/Ne...')
+#7 [internal function]: CKSource\CKFinder\Config->{closure}()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Authentication/CallableAuthentication.php(45): call_user_func()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(218): CKSource\CKFinder\Authentication\CallableAuthentication->authenticate()
+#10 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(539): CKSource\CKFinder\CKFinder->checkAuth()
+#11 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(600): CKSource\CKFinder\CKFinder->boot()
+#12 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#13 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#14 {main}
+CRITICAL - 2022-01-08 15:12:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/app/Config/Events.php:27) in /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:14:05 --> Call to a member function getPerformanceStats() on null
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(51): CodeIgniter\CodeIgniter->run()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/CI.php(12): require_once('/home/szymon/Ne...')
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/config.php(30): require_once('/home/szymon/Ne...')
+#7 [internal function]: CKSource\CKFinder\Config->{closure}()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Authentication/CallableAuthentication.php(45): call_user_func()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(218): CKSource\CKFinder\Authentication\CallableAuthentication->authenticate()
+#10 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(539): CKSource\CKFinder\CKFinder->checkAuth()
+#11 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(600): CKSource\CKFinder\CKFinder->boot()
+#12 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#13 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#14 {main}
+CRITICAL - 2022-01-08 15:14:26 --> Call to a member function getPerformanceStats() on null
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/index.php(52): CodeIgniter\CodeIgniter->run()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/CI.php(12): require_once('/home/szymon/Ne...')
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/config.php(30): require_once('/home/szymon/Ne...')
+#7 [internal function]: CKSource\CKFinder\Config->{closure}()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Authentication/CallableAuthentication.php(45): call_user_func()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(218): CKSource\CKFinder\Authentication\CallableAuthentication->authenticate()
+#10 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(539): CKSource\CKFinder\CKFinder->checkAuth()
+#11 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(600): CKSource\CKFinder\CKFinder->boot()
+#12 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#13 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#14 {main}
+CRITICAL - 2022-01-08 15:15:45 --> Allowed memory size of 10485760 bytes exhausted (tried to allocate 8388616 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:15:46 --> Allowed memory size of 10485760 bytes exhausted (tried to allocate 7187136 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:16:47 --> Invalid resource type: 
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/ResourceType/ResourceTypeFactory.php(48): CKSource\CKFinder\Config->getResourceTypeNode()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Filesystem/Folder/WorkingFolder.php(102): CKSource\CKFinder\ResourceType\ResourceTypeFactory->getResourceType()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(132): CKSource\CKFinder\Filesystem\Folder\WorkingFolder->__construct()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(379): Pimple\Container->offsetGet()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/CommandAbstract.php(75): CKSource\CKFinder\CKFinder->getWorkingFolder()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CommandResolver.php(156): CKSource\CKFinder\Command\CommandAbstract->checkPermissions()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(123): CKSource\CKFinder\CommandResolver->getController()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle()
+#10 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#11 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#12 {main}
+CRITICAL - 2022-01-08 15:16:47 --> Invalid resource type: 
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/ResourceType/ResourceTypeFactory.php(48): CKSource\CKFinder\Config->getResourceTypeNode()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Filesystem/Folder/WorkingFolder.php(102): CKSource\CKFinder\ResourceType\ResourceTypeFactory->getResourceType()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(132): CKSource\CKFinder\Filesystem\Folder\WorkingFolder->__construct()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(379): Pimple\Container->offsetGet()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/CommandAbstract.php(75): CKSource\CKFinder\CKFinder->getWorkingFolder()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CommandResolver.php(156): CKSource\CKFinder\Command\CommandAbstract->checkPermissions()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(123): CKSource\CKFinder\CommandResolver->getController()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle()
+#10 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#11 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#12 {main}
+CRITICAL - 2022-01-08 15:17:24 --> Allowed memory size of 10485760 bytes exhausted (tried to allocate 8388616 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:17:24 --> Allowed memory size of 10485760 bytes exhausted (tried to allocate 7187136 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:20:52 --> Folder not found
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(132): CKSource\CKFinder\Filesystem\Folder\WorkingFolder->__construct()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(379): Pimple\Container->offsetGet()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/CommandAbstract.php(75): CKSource\CKFinder\CKFinder->getWorkingFolder()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CommandResolver.php(156): CKSource\CKFinder\Command\CommandAbstract->checkPermissions()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(123): CKSource\CKFinder\CommandResolver->getController()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#10 {main}
+CRITICAL - 2022-01-08 15:20:52 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 116 in /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php:156
+Stack trace:
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(156): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php(111): CodeIgniter\HTTP\Response->setStatusCode()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:20:52 --> Folder not found
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(132): CKSource\CKFinder\Filesystem\Folder\WorkingFolder->__construct()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(379): Pimple\Container->offsetGet()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/CommandAbstract.php(75): CKSource\CKFinder\CKFinder->getWorkingFolder()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CommandResolver.php(156): CKSource\CKFinder\Command\CommandAbstract->checkPermissions()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(123): CKSource\CKFinder\CommandResolver->getController()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#10 {main}
+CRITICAL - 2022-01-08 15:20:52 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 116 in /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php:156
+Stack trace:
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(156): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php(111): CodeIgniter\HTTP\Response->setStatusCode()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:21:02 --> Folder not found
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(132): CKSource\CKFinder\Filesystem\Folder\WorkingFolder->__construct()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(379): Pimple\Container->offsetGet()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/CommandAbstract.php(75): CKSource\CKFinder\CKFinder->getWorkingFolder()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CommandResolver.php(156): CKSource\CKFinder\Command\CommandAbstract->checkPermissions()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(123): CKSource\CKFinder\CommandResolver->getController()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#10 {main}
+CRITICAL - 2022-01-08 15:21:02 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 116 in /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php:156
+Stack trace:
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(156): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php(111): CodeIgniter\HTTP\Response->setStatusCode()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:21:03 --> Folder not found
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(132): CKSource\CKFinder\Filesystem\Folder\WorkingFolder->__construct()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(379): Pimple\Container->offsetGet()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/CommandAbstract.php(75): CKSource\CKFinder\CKFinder->getWorkingFolder()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CommandResolver.php(156): CKSource\CKFinder\Command\CommandAbstract->checkPermissions()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(123): CKSource\CKFinder\CommandResolver->getController()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#10 {main}
+CRITICAL - 2022-01-08 15:21:03 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 116 in /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php:156
+Stack trace:
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(156): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php(111): CodeIgniter\HTTP\Response->setStatusCode()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:21:05 --> Folder not found
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(132): CKSource\CKFinder\Filesystem\Folder\WorkingFolder->__construct()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(379): Pimple\Container->offsetGet()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/CommandAbstract.php(75): CKSource\CKFinder\CKFinder->getWorkingFolder()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CommandResolver.php(156): CKSource\CKFinder\Command\CommandAbstract->checkPermissions()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(123): CKSource\CKFinder\CommandResolver->getController()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#10 {main}
+CRITICAL - 2022-01-08 15:21:05 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 116 in /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php:156
+Stack trace:
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(156): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php(111): CodeIgniter\HTTP\Response->setStatusCode()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:21:06 --> Folder not found
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(132): CKSource\CKFinder\Filesystem\Folder\WorkingFolder->__construct()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/pimple/pimple/src/Pimple/Container.php(118): CKSource\CKFinder\CKFinder->CKSource\CKFinder\{closure}()
+#2 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(379): Pimple\Container->offsetGet()
+#3 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Command/CommandAbstract.php(75): CKSource\CKFinder\CKFinder->getWorkingFolder()
+#4 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CommandResolver.php(156): CKSource\CKFinder\Command\CommandAbstract->checkPermissions()
+#5 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(123): CKSource\CKFinder\CommandResolver->getController()
+#6 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/symfony/http-kernel/HttpKernel.php(57): Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+#7 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(608): Symfony\Component\HttpKernel\HttpKernel->handle()
+#8 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/CKFinder.php(346): CKSource\CKFinder\CKFinder->handle()
+#9 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/public_html/ckfinder/core/connector/php/connector.php(23): CKSource\CKFinder\CKFinder->run()
+#10 {main}
+CRITICAL - 2022-01-08 15:21:06 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 116 in /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php:156
+Stack trace:
+#0 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(156): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode()
+#1 /home/szymon/Nextcloud/Studia/TechnikiInternetu/SzymokiCMS/vendor/codeigniter4/framework/system/Debug/Exceptions.php(111): CodeIgniter\HTTP\Response->setStatusCode()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:21:35 --> Allowed memory size of 10485760 bytes exhausted (tried to allocate 8388616 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-08 15:21:40 --> Allowed memory size of 6291456 bytes exhausted (tried to allocate 2740088 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
