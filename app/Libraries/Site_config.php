@@ -4,7 +4,7 @@
  * @Author: Szymon Haczyk
  * @Date:   2020-05-02 21:37:28
  * @Last Modified by:   szymon
- * @Last Modified time: 2022-01-15 16:20:58
+ * @Last Modified time: 2022-01-22 14:24:21
  * @email: szymon.haczyk@icloud.com
  */
 namespace App\Libraries;
@@ -182,14 +182,14 @@ public function routes_generate(){
     $pages=$this->pages_model->where("published","1")->findAll();
     foreach($pages as $page){
         if($page->symlink!=""){
-            $routes[strtolower($page->symlink)]="Page::page/".$page->id;
+            $routes[preg_replace("/[^A-Za-z0-9.!?]/",'',strtolower($page->symlink))]="Page::page/".$page->id;
         }
     }
 
     $pages_p=$this->pages_p_model->where("published","1")->findAll();
     foreach($pages_p as $page){
         if($page->symlink!=""){
-            $routes[strtolower($page->symlink)]="Page::page_p/".$page->id;
+            $routes[preg_replace("/[^A-Za-z0-9.!?]/",'',strtolower($page->symlink))]="Page::page_p/".$page->id;
         }
     }
 

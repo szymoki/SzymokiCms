@@ -4,7 +4,7 @@
  * @Author: Szymon Haczyk
  * @Date:   2020-05-02 21:37:28
  * @Last Modified by:   szymon
- * @Last Modified time: 2022-01-08 12:02:55
+ * @Last Modified time: 2022-01-22 14:13:54
  * @email: szymon.haczyk@icloud.com
  */
 namespace App\Controllers\Panel;
@@ -117,10 +117,10 @@ class News extends PanelController
             return redirect()->to(base_url() . '/panel/news');
         } else {
             $this->news_model->insert(array(
-                "title"       => $this->request->getPost("title"),
+                "title"       => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "text"        => $this->request->getPost("text"),
                 "published"   => $this->request->getPost("published"),
-                "mainphoto"   => $this->request->getPost("mainphoto"),
+                "mainphoto"   => $this->request->getPost("mainphoto",FILTER_SANITIZE_STRING),
                 "super"       => $this->request->getPost("super"),
                 "mainpage"    => $this->request->getPost("mainpage"),
                 "category"    => $this->request->getPost("category"),
@@ -156,13 +156,13 @@ class News extends PanelController
             echo view('panel/panel_theme', $dane);
         } else {
             $this->news_model->update($this->request->getPost("id"), array(
-                "title"       => $this->request->getPost("title"),
+                "title"       => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "text"        => $this->request->getPost("text"),
                 "published"   => $this->request->getPost("published"),
                 "super"       => $this->request->getPost("super"),
                 "mainpage"    => $this->request->getPost("mainpage"),
                 "category"    => $this->request->getPost("category"),
-                "mainphoto"   => $this->request->getPost("mainphoto"),
+                "mainphoto"   => $this->request->getPost("mainphoto",FILTER_SANITIZE_STRING),
                 "edited_by"   => $this->ses["id"],
                 "edited_date" => date("Y-m-d H:i:s"),
             ));

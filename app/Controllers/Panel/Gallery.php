@@ -3,7 +3,7 @@
  * @Author: Szymon Haczyk
  * @Date:   2020-05-02 21:37:28
  * @Last Modified by:   szymon
- * @Last Modified time: 2022-01-08 15:04:35
+ * @Last Modified time: 2022-01-22 14:20:24
  * @email: szymon.haczyk@icloud.com
  */
 namespace App\Controllers\Panel;
@@ -93,7 +93,7 @@ class Gallery extends PanelController {
 				mkdir($this->dir."/".$folder);
 			}
 			$galerry_id=$this->gallery_model->insert(array(
-				"title"=>$this->request->getPost("title"),
+				"title"=>$this->request->getPost("title",FILTER_SANITIZE_STRING),
 				"text"=>$this->request->getPost("text"),
 				"folder"=>$folder,
 				"published"=>$this->request->getPost("published"),
@@ -129,7 +129,7 @@ class Gallery extends PanelController {
 				mkdir($this->dir."/".$folder); 	
 			}
 			$this->gallery_model->update($this->request->getPost("id"),array(
-				"title"=>$this->request->getPost("title"),
+				"title"=>$this->request->getPost("title",FILTER_SANITIZE_STRING),
 				"text"=>$this->request->getPost("text"),
 				"folder"=>$folder,
 				"published"=>$this->request->getPost("published"),

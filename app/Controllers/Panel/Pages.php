@@ -3,7 +3,7 @@
  * @Author: Szymon Haczyk
  * @Date:   2020-05-02 21:37:28
  * @Last Modified by:   szymon
- * @Last Modified time: 2022-01-08 12:02:55
+ * @Last Modified time: 2022-01-22 14:19:40
  * @email: szymon.haczyk@icloud.com
  */
 namespace App\Controllers\Panel;
@@ -108,7 +108,7 @@ class Pages extends PanelController
             echo view('/panel/panel_theme', $dane);
         } else {
             $page_id = $this->pages_model->insert(array(
-                "title"       => $this->request->getPost("title"),
+                "title"       => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "text"        => $this->request->getPost("text"),
                 "published"   => $this->request->getPost("published"),
                 "create_by"   => $this->ses["id"],
@@ -116,7 +116,7 @@ class Pages extends PanelController
                 "edited_by"   => $this->ses["id"],
                 "edited_date" => date("Y-m-d H:i:s"),
                 "parent_id"   => $this->request->getPost("parent_id"),
-                "symlink"     => strtolower($this->request->getPost("symlink")),
+                "symlink"     => strtolower($this->request->getPost("symlink",FILTER_SANITIZE_URL)),
 
             ));
             if ($this->request->getPost("parent_id") != 0) {
@@ -184,13 +184,13 @@ class Pages extends PanelController
             }
 
             $this->pages_model->update($this->request->getPost("id"), array(
-                "title"       => $this->request->getPost("title"),
+                "title"       => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "text"        => $this->request->getPost("text"),
                 "published"   => $this->request->getPost("published"),
                 "edited_by"   => $this->ses["id"],
                 "edited_date" => date("Y-m-d H:i:s"),
                 "parent_id"   => $this->request->getPost("parent_id"),
-                "symlink"     => strtolower($this->request->getPost("symlink")),
+                "symlink"     => strtolower($this->request->getPost("symlink",FILTER_SANITIZE_URL)),
 
             ));
             $this->site_config->routes_generate();
@@ -230,9 +230,9 @@ class Pages extends PanelController
             redirect("/panel/pages");
         } else {
             $this->pages_addlinks_model->insert(array(
-                "title"     => $this->request->getPost("title"),
+                "title"     => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "page_id"   => $this->request->getPost("page_id"),
-                "url"       => $this->request->getPost("url"),
+                "url"       => $this->request->getPost("url",FILTER_SANITIZE_URL),
                 "parent_id" => $this->request->getPost("id"),
                 "position"  => $this->request->getPost("position"),
 
@@ -261,9 +261,9 @@ class Pages extends PanelController
             echo view('/panel/panel_theme', $dane);
         } else {
             $this->pages_addlinks_model->update($this->request->getPost("id"), array(
-                "title"     => $this->request->getPost("title"),
+                "title"     => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "page_id"   => $this->request->getPost("page_id"),
-                "url"       => $this->request->getPost("url"),
+                "url"       => $this->request->getPost("url",FILTER_SANITIZE_URL),
                 "parent_id" => $this->request->getPost("parent_id"),
                 "position"  => $this->request->getPost("position"),
             ));

@@ -3,7 +3,7 @@
  * @Author: Szymon Haczyk
  * @Date:   2020-05-02 21:37:28
  * @Last Modified by:   szymon
- * @Last Modified time: 2022-01-15 16:05:33
+ * @Last Modified time: 2022-01-22 14:17:11
  * @email: szymon.haczyk@icloud.com
  */
 namespace App\Controllers\Panel;
@@ -120,11 +120,11 @@ class Users extends PanelController
         } else {
             $encryption = new \Config\Encryption();
             $id         = $this->user_model->insert(array(
-                "nick"     => $this->request->getPost("nick"),
-                "name"     => $this->request->getPost("name"),
+                "nick"     => $this->request->getPost("nick",FILTER_SANITIZE_STRING),
+                "name"     => $this->request->getPost("name",FILTER_SANITIZE_STRING),
                 "password" => password_hash($encryption->key . $this->request->getPost("password"),PASSWORD_BCRYPT),
                 "level"    => $this->request->getPost("level"),
-                "email"    => $this->request->getPost("email"),
+                "email"    => $this->request->getPost("email",FILTER_SANITIZE_EMAIL),
 
             ));
             if ($this->request->getPost("acl")) {
@@ -215,10 +215,10 @@ class Users extends PanelController
             } else {
 
                 $this->user_model->update($this->request->getPost("id"), array(
-                    "nick"  => $this->request->getPost("nick"),
-                    "name"  => $this->request->getPost("name"),
+                    "nick"  => $this->request->getPost("nick",FILTER_SANITIZE_STRING),
+                    "name"  => $this->request->getPost("name",FILTER_SANITIZE_STRING),
                     "level" => $level,
-                    "email" => $this->request->getPost("email"),
+                    "email" => $this->request->getPost("email",FILTER_SANITIZE_EMAIL),
                 ));
 
                 $this->acl_model->where("user_id", $this->request->getPost("id"))->delete();

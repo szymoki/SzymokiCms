@@ -3,7 +3,7 @@
  * @Author: Szymon Haczyk
  * @Date:   2020-05-02 21:37:28
  * @Last Modified by:   szymon
- * @Last Modified time: 2022-01-15 16:20:58
+ * @Last Modified time: 2022-01-22 14:16:07
  * @email: szymon.haczyk@icloud.com
  */
 namespace App\Controllers\Panel;
@@ -62,11 +62,11 @@ class Szablon extends PanelController
     {
         $this->zmienne_model->zmienna_set("text_startup", $this->request->getPost("text_startup"));
         $this->zmienne_model->zmienna_set("text_sponsorzy", $this->request->getPost("text_sponsorzy"));
-        $this->zmienne_model->zmienna_set("licznik1", $this->request->getPost("licznik1"));
-        $this->zmienne_model->zmienna_set("licznik2", $this->request->getPost("licznik2"));
-        $this->zmienne_model->zmienna_set("licznik3", $this->request->getPost("licznik3"));
-        $this->zmienne_model->zmienna_set("licznik4", $this->request->getPost("licznik4"));
-        $this->zmienne_model->zmienna_set("licznik4", $this->request->getPost("licznik4"));
+        $this->zmienne_model->zmienna_set("licznik1", $this->request->getPost("licznik1",FILTER_SANITIZE_STRING));
+        $this->zmienne_model->zmienna_set("licznik2", $this->request->getPost("licznik2",FILTER_SANITIZE_STRING));
+        $this->zmienne_model->zmienna_set("licznik3", $this->request->getPost("licznik3",FILTER_SANITIZE_STRING));
+        $this->zmienne_model->zmienna_set("licznik4", $this->request->getPost("licznik4",FILTER_SANITIZE_STRING));
+        $this->zmienne_model->zmienna_set("licznik4", $this->request->getPost("licznik4",FILTER_SANITIZE_STRING));
         $this->zmienne_model->zmienna_set("uczniowie_on", $this->request->getPost("uczniowie_on"));
         $this->zmienne_model->zmienna_set("licznik_on", $this->request->getPost("licznik_on"));
         $this->zmienne_model->zmienna_set("boxy_on", $this->request->getPost("boxy_on"));

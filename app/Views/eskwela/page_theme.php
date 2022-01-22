@@ -8,8 +8,8 @@
         <?=$title?>
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="I Liceum Ogólnokształcące im. Komisji Edukacji Narodowej w Stalowej Woli" />
-    <meta name="keywords" content="liceum ogólnokształcące, ken, stalowa wola, liceum, loken, staszic" />
+    <meta name="description" content="Prosty CMS" />
+    <meta name="keywords" content="" />
     <meta name="author" content="Szymon Haczyk - szymon.haczyk(at)icloud.com" />
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

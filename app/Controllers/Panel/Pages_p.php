@@ -3,7 +3,7 @@
  * @Author: Szymon Haczyk
  * @Date:   2020-05-02 21:37:28
  * @Last Modified by:   szymon
- * @Last Modified time: 2022-01-08 12:02:55
+ * @Last Modified time: 2022-01-22 14:19:22
  * @email: szymon.haczyk@icloud.com
  **/
 namespace App\Controllers\Panel;
@@ -102,7 +102,7 @@ class Pages_p extends PanelController
             echo view('/panel/panel_theme', $dane);
         } else {
             $page_id = $this->pages_p_model->insert(array(
-                "title"       => $this->request->getPost("title"),
+                "title"       => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "text"        => $this->request->getPost("text"),
                 "published"   => $this->request->getPost("published"),
                 "create_by"   => $this->ses["id"],
@@ -110,10 +110,10 @@ class Pages_p extends PanelController
                 "edited_by"   => $this->ses["id"],
                 "edited_date" => date("Y-m-d H:i:s"),
                 "parent_id"   => $this->request->getPost("parent_id"),
-                "symlink"     => strtolower($this->request->getPost("symlink")),
+                "symlink"     => strtolower($this->request->getPost("symlink",FILTER_SANITIZE_URL)),
                 "menushow"    => $this->request->getPost("menushow"),
                 "newsletter"  => $this->request->getPost("newsletter"),
-                "img"         => $this->request->getPost("img"),
+                "img"         => $this->request->getPost("img",FILTER_SANITIZE_STRING),
             ));
             if ($this->request->getPost("parent_id") != 0) {
                 $this->pages_addlinks_model->insert(array(
@@ -181,16 +181,16 @@ class Pages_p extends PanelController
             }
 
             $this->pages_p_model->update($this->request->getPost("id"), array(
-                "title"       => $this->request->getPost("title"),
+                "title"       => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "text"        => $this->request->getPost("text"),
                 "published"   => $this->request->getPost("published"),
                 "edited_by"   => $this->ses["id"],
                 "edited_date" => date("Y-m-d H:i:s"),
                 "parent_id"   => $this->request->getPost("parent_id"),
-                "symlink"     => strtolower($this->request->getPost("symlink")),
+                "symlink"     => strtolower($this->request->getPost("symlink",FILTER_SANITIZE_URL)),
                 "newsletter"  => $this->request->getPost("newsletter"),
                 "menushow"    => $this->request->getPost("menushow"),
-                "img"         => $this->request->getPost("img"),
+                "img"         => $this->request->getPost("img",FILTER_SANITIZE_STRING),
 
             ));
             $this->site_config->routes_generate();
@@ -229,9 +229,9 @@ class Pages_p extends PanelController
             redirect("/panel/pages");
         } else {
             $this->pages_addlinks_model->insert(array(
-                "title"     => $this->request->getPost("title"),
+                "title"     => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "page_id"   => $this->request->getPost("page_id"),
-                "url"       => $this->request->getPost("url"),
+                "url"       => $this->request->getPost("url",FILTER_SANITIZE_URL),
                 "parent_id" => $this->request->getPost("id"),
                 "position"  => $this->request->getPost("position"),
                 "page_type" => 1,
@@ -259,9 +259,9 @@ class Pages_p extends PanelController
             echo view('/panel/panel_theme', $dane);
         } else {
             $this->pages_addlinks_model->update($this->request->getPost("id"), array(
-                "title"     => $this->request->getPost("title"),
+                "title"     => $this->request->getPost("title",FILTER_SANITIZE_STRING),
                 "page_id"   => $this->request->getPost("page_id"),
-                "url"       => $this->request->getPost("url"),
+                "url"       => $this->request->getPost("url",FILTER_SANITIZE_URL),
                 "parent_id" => $this->request->getPost("parent_id"),
                 "position"  => $this->request->getPost("position"),
             ));

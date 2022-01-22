@@ -4,7 +4,7 @@
  * @Author: Szymon Haczyk
  * @Date:   2020-05-03 14:37:41
  * @Last Modified by:   szymon
- * @Last Modified time: 2022-01-08 12:02:55
+ * @Last Modified time: 2022-01-22 14:20:11
  * @email: szymon.haczyk@icloud.com
  */
 
@@ -95,9 +95,9 @@ class Menu extends PanelController
             echo view('panel/panel_theme', $dane);
         } else {
             $mid = $this->menu_model->insert(array(
-                "name"      => $this->request->getPost("name"),
-                "url"       => strtolower($this->request->getPost("url")),
-                "pozycja"   => $this->request->getPost("pozycja"),
+                "name"      => $this->request->getPost("name",FILTER_SANITIZE_STRING),
+                "url"       => strtolower($this->request->getPost("url",FILTER_SANITIZE_URL)),
+                "pozycja"   => $this->request->getPost("pozycja",FILTER_SANITIZE_STRING),
                 "parent_id" => $this->request->getPost("parent_id"),
                 "active"    => $this->request->getPost("active"),
 
@@ -132,7 +132,7 @@ class Menu extends PanelController
         } else {
             $this->menu_model->update($this->request->getPost("id"), array(
                 "name"      => $this->request->getPost("name"),
-                "url"       => strtolower($this->request->getPost("url")),
+                "url"       => strtolower($this->request->getPost("url",FILTER_SANITIZE_URL)),
                 "pozycja"   => $this->request->getPost("pozycja"),
                 "parent_id" => $this->request->getPost("parent_id"),
                 "active"    => $this->request->getPost("active"),
